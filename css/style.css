@@ -19,8 +19,7 @@ main:after {
     content: "";
     display: table;
     clear: both;
-  }
-
+}
 .right{
     float: right;
 }
@@ -29,9 +28,11 @@ main:after {
 }
 
 
-/* *** DEBUG *** */
 
 
+/* ****** DEBUG ****** */
+
+/* *** DEBUG HEADER *** */
 .debug .header-top{
     height: 90px;
     background-color: violet;
@@ -41,6 +42,25 @@ main:after {
     height: 270px;
     background-color: rgb(205, 205, 50);
 }
+
+/* *** DEBUG MAIN *** */
+.debug .main-top{
+    height: 20%;
+    background-color: rgb(124, 161, 230);
+}
+
+.debug .column{
+    height: 80%;
+    background-color: rgb(124, 161, 230);    
+}
+
+.debug .content{
+    height: 80%;
+    background-color: rgb(124, 161, 230);    
+}
+
+
+
 
 
 /* *** HEADER *** */
@@ -63,6 +83,25 @@ main{
     /* da rimuovere */
     height: 400px;
 }
+
+.main-top{
+    width: 100%;  
+}
+
+.main-bottom{
+    width: 100%;
+    margin-bottom: 1px;  
+}
+
+.column{
+    width: 20%;
+}
+
+.content{
+    width: 58%;
+    margin: 0 1%;
+}
+
 
 /* *** FOOTER *** */
 
