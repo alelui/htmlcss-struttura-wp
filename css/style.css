@@ -1,0 +1,68 @@
+/* *** COMMONS *** */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+
+
+/* *** DEBUG *** */
+
+
+.debug .header-top{
+    height: 90px;
+    background-color: violet;
+}
+
+.debug .header-bottom{
+    height: 270px;
+    background-color: rgb(205, 205, 50);
+}
+
+
+/* *** HEADER *** */
+
+header{
+    width: 100%;
+}
+
+.header-top{
+    margin-bottom: 20px;
+}
+
+
+/* *** MAIN *** */
+
+main{
+    width: 100%;
+    background-color: rgb(19, 80, 233);
+    margin-top: 20px;
+    /* da rimuovere */
+    height: 400px;
+}
+
+/* *** FOOTER *** */
+
